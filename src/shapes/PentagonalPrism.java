@@ -1,5 +1,9 @@
 package shapes;
 
+/**
+ * represents a pentagonal prism
+ */
+
 public class PentagonalPrism extends Prism
 {
 	public PentagonalPrism(double height, double edgeLength) {

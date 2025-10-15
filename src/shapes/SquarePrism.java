@@ -1,5 +1,9 @@
 package shapes;
 
+/**
+ * represents a square prism
+ */
+
 public class SquarePrism extends Prism
 {
 	public SquarePrism(double height, double edgeLength)  {

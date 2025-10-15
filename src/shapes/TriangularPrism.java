@@ -1,5 +1,9 @@
 package shapes;
 
+/**
+ * represents a triangular prism
+ */
+
 public class TriangularPrism extends Prism
 {
 	public TriangularPrism(double height, double edgeLength) {

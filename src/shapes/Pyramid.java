@@ -1,5 +1,9 @@
 package shapes;
 
+/**
+ * represents a pyramid shape
+ */
+
 public class Pyramid extends Shape{
 		private double edgeLength;
 		public Pyramid(double height, double edgeLength) {

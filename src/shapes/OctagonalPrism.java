@@ -1,5 +1,9 @@
 package shapes;
 
+/**
+ * represents a octagonal prism 
+ */
+
 public class OctagonalPrism extends Prism
 {
 	public OctagonalPrism(double height, double edgeLength) {
