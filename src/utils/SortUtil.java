@@ -90,7 +90,7 @@ public class SortUtil
 		int j = mid + 1;
 		int k = left;
 		
-		while(i < mid && j <= right) {
+		while(i <= mid && j <= right) {
 			if(comp.compare(aux[i], aux[j]) <= 0) {
 				arr[k++] = aux[i++];
 			} else {

@@ -22,19 +22,3 @@ public class BaseAreaComparator implements Comparator<Shape> {
 	}
 }
 
-class VolumeComparator implements Comparator<Shape> {
-	@Override
-	public int compare(Shape s1, Shape s2) {
-		// For descending order: larger volume comes first
-		double vol1 = s1.getVolume();
-		double vol2 = s2.getVolume();
-		
-		if(vol1 > vol2) {
-			return -1;
-		}else if (vol1 < vol2) {
-			return 1;
-		}
-		return 0;
-	}
-}	
-
