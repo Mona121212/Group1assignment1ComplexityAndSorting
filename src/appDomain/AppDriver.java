@@ -91,7 +91,6 @@ public class AppDriver
         long elapsedMs = (System.nanoTime() - start) / 1_000_000;
         
         // ---- output ----
-        System.out.println("time: " + elapsedMs + " ms");
         if (work.length > 0) {
             for (int i = 0; i < work.length; i++) {
                 if (i == 0 || i == work.length - 1 || i % 1000 == 0) {
@@ -99,5 +98,6 @@ public class AppDriver
                 }
             }
         }
+        System.out.println("time: " + elapsedMs + " ms");
 	}
 }
